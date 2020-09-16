@@ -1,0 +1,16 @@
+###keys
+locked pc[p1] pc[p2] pc[p3]
+
+###textDisplay
+
+###states
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: true (pc[p1]: cs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: true (pc[p1]: rs) (pc[p2]: cs) (pc[p3]: rs)) || 
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: true (pc[p1]: cs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: true (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: cs)) || 
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs)) || 
+(locked: false (pc[p1]: rs) (pc[p2]: rs) (pc[p3]: rs )
